@@ -81,7 +81,8 @@ nav{
 }
 
 .logo{
-    width: 140px;
+    width: 20%;
+    height: auto;
 }
 
 nav ul li{
@@ -386,7 +387,32 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/bg2.gif);
+        background-image: url(images/bg2-phone.gif);
+    }
+    #header1{
+      
+        background-image: url(images/t4g-phone.jpg);
+  
+    }
+    #header2{
+       
+        background-image: url(images/drgb-phone.jpg);
+     
+    }
+    
+    #header3{
+       
+        background-image: url(images/ng1-phone.jpg);
+      
+    }
+    #header4{
+        background-image: url(images/wau-phone.jpg);
+    }
+    #header5{  
+        background-image: url(images/fye4-phone.jpg);
+    }
+    #header6{    
+        background-image: url(images/sittab-phone.jpg);
     }
     .header-text{
         margin-top: 100%;
@@ -395,8 +421,14 @@ nav .fas{
     .header-text h1{
         font-size: 30px;
     }
+    .header-text h2{
+        font-size: 30px;
+    }
+    .header-text h3{
+        font-size: 30px;
+    }
     nav .fas{
-        display: block;
+        display: none;
         font-size: 25px;
     }
     nav ul{
@@ -442,6 +474,31 @@ nav .fas{
     .copyright{
         font-size: 14px;
     }
+    header {
+
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+       }
+     
+     .row {
+        display: flex;
+        overflow: hidden;
+       }
+     
+     .imagegroup {
+        display: flex;
+       }
+     
+     .imagegroup img{
+       flex-shrink: 0;
+       object-fit: cover;
+       border: 3px solid rgb(17, 0, 0);
+     }
+     
+     .imagegroup {
+        animation: travel 20s ease-in-out infinite;
+       }
 }
 #msg{
     color: #61b752;
