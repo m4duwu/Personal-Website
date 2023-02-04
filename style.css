@@ -390,38 +390,38 @@ nav .fas{
     }
     #header{
         background-image: url(images/bg2-phone.gif);
-        background-attachment: scroll;
+        
+        
     }
     #header1{
       
         background-image: url(images/t4g-phone.jpg);
-        background-attachment: scroll;
-  
+        
     }
     #header2{
        
         background-image: url(images/drgb-phone.jpg);
-        background-attachment: scroll;
+       
      
     }
     
     #header3{
        
         background-image: url(images/ng1-phone.jpg);
-        background-attachment: scroll;
+       
       
     }
     #header4{
         background-image: url(images/wau-phone.jpg);
-        background-attachment: scroll;
+       
     }
     #header5{  
         background-image: url(images/fye4-phone.jpg);
-        background-attachment: scroll;
+       
     }
     #header6{    
         background-image: url(images/sittab-phone.jpg);
-        background-attachment: scroll;
+     
     }
     .header-text{
         margin-top: 100%;
