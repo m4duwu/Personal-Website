@@ -1,252 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website - Easy Tutorials</title>
     <link rel="stylesheet" href="style.css">
-    <script  src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-<div id="header">
-    <div class="container">
-        <nav>
-            <img src="images/logo.png" class="logo">
-            <ul id="sidemenu">
-                <li><a href="#header">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <i class="fas fa-times" onclick="closemenu()"></i>
-            </ul>
-            <i class="fas fa-bars" onclick="openmenu()"></i>
-        </nav>
-        <div class="header-text">
-            <p>Aspiring Software Engineer</p>
-            <h1>Hi, I'm <span>Haziqshah</span><br>welcome to my page!</h1>
-        </div>
-    </div>
-</div>
-<!-- -----------about---------- -->
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="images/profile pic.jpg">
-            </div>
-            <div class="about-col-2">
-                <h1 class="sub-title">About Me</h1>
-                <p>Hi my name is Haziqshah, an aspiring software Engineer! 
-                    <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></p><br>
-                    <p>🔭 I’m a year 2 Computer Engineering Undergraduate studying in Singapore Institute of technology!</p><br>
-
-                    <p>🌱 I aspire to be a software engineer who uses his critical thinking skills to develop software innovations to solve real world problems!</p><br>
-                    
-                    <p>⚡ In my free time, I solve problems on GeeksforGeeks and read tech articles. I also enjoy volunteering 😸</p><br>
-
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                    <p class="tab-links" onclick="opentab('education')">Education</p>
-                </div>
-                <div class="tab-contents active-tab" id="skills">
-                    <ul>
-                        <li><span>🖥️ Programming Languanges</span><br><div>
-                            <img src="images/devicon-master/icons/c/c-original.svg" title="C" alt="C" width="40" height="40"/>&nbsp;
-                            <img src="images/devicon-master/icons/cplusplus/cplusplus-original.svg" title="C++" alt="C++" width="40" height="40"/>&nbsp;
-                            <img src="images/devicon-master//icons/csharp/csharp-original.svg" title="C#" alt="C#" width="40" height="40"/>&nbsp;
-                            <img src="images/devicon-master/icons/java/java-original-wordmark.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
-                            <img src="images/devicon-master/icons/arduino/arduino-original-wordmark.svg" title="Arduino" alt="Arduino" width="40" height="40"/>&nbsp;
-                            <img src="images/devicon-master/icons/mysql/mysql-original-wordmark.svg" title="MySQL"  alt="MySQL" width="40" height="40"/>&nbsp;
-                            <img src="images/devicon-master/icons/jupyter/jupyter-original-wordmark.svg" title="jupyter"  alt="jupyter" width="40" height="40"/>&nbsp;
-                            <img src="images/devicon-master/icons/python/python-original-wordmark.svg" title="python"  alt="python" width="40" height="40"/>&nbsp;
-                         </div></li>
-                        <li><span>🤖 IDE</span><br><div>
-                            <img src="images/Apache_NetBeans_Logo.svg" title="NetBeans"  alt="NetBeans" width="40" height="40"/>&nbsp;
-                            <img src="https://i0.wp.com/ubiq.co/database-blog/wp-content/uploads/2020/10/mysql-workbench-alternatives.png?resize=730%2C410&ssl=1" title="MYSQLWorkbench"  alt="MYSQLWorkbench" width="80" height="40"/>&nbsp;
-                            <img src="images/Google_Colaboratory_SVG_Logo.svg" title="Google Colaboratory"  alt="Google Colaboratory" width="80" height="40"/>&nbsp;
-                            <img src="images/Visual_Studio_2012_logo_and_wordmark.svg" title="Visual Studio"  alt="Visual Studio" width="80" height="40"/>&nbsp;
-                            <img src="images/Eclipse-Luna-Logo.svg" title="Eclipse"  alt="Eclipse" width="80" height="40"/>&nbsp;
-                          
-                          
-                          </div></li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="experience">
-                    <ul>
-                        <li><span>Apr 2022 - Oct 2022</span><br>UI/UX Designer at Tech For Good</li>
-                        <li><span>Jan 2017 - June 2017</span><br>Lead Programmer as reasearch assistant intern.</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="education">
-                    <ul>
-                        <li><span>Apr 2015 - Apr 2018</span><br>Diploma in Computer Engineering at Temasek Polytechnic</li>
-                        <li><span>Sept 2021 - Present</span><br>Bachelor of Computer Engineer at Singapore Institute of Technology.</li>
-                    </ul>
-                </div>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Aspiring Software Engineer</p>
+                <h1>Hi, I'm <span>Haziqshah</span><br>welcome to my page!</h1>
             </div>
         </div>
     </div>
-</div>
+    <!-- -----------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile pic.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi my name is Haziqshah, an aspiring software Engineer!
+                        <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
+                    </p><br>
+                    <p>🔭 I’m a year 2 Computer Engineering Undergraduate studying in Singapore Institute of technology!
+                    </p><br>
 
-<!-- ----------portfolio------------ -->
-<div id="portfolio">
-    <div class="container">
-        <h1 class="sub-title">Featured Work</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="images/t4g0.jpg">
-                <div class="layer">
-                    <h3>Dynamic bowling ramp (Tech4Good)</h3>
-                    <p>Rampability, a dynamic bowling ramp that is aims to improve the bowling experience for people with Cerebral Palsy</p><br>
-                    <p>Click the icon below for more</p>
-                    <a href="tech4good.html"><img src="images/icons/link.png"/>&nbsp;</a>
+                    <p>🌱 I aspire to be a software engineer who uses his critical thinking skills to develop software
+                        innovations to solve real world problems!</p><br>
+
+                    <p>⚡ In my free time, I solve problems on GeeksforGeeks and read tech articles. I also enjoy
+                        volunteering 😸</p><br>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>🖥️ Programming Languanges</span><br>
+                                <div>
+                                    <img src="images/devicon-master/icons/c/c-original.svg" title="C" alt="C" width="40"
+                                        height="40" />&nbsp;
+                                    <img src="images/devicon-master/icons/cplusplus/cplusplus-original.svg" title="C++"
+                                        alt="C++" width="40" height="40" />&nbsp;
+                                    <img src="images/devicon-master//icons/csharp/csharp-original.svg" title="C#"
+                                        alt="C#" width="40" height="40" />&nbsp;
+                                    <img src="images/devicon-master/icons/java/java-original-wordmark.svg" title="Java"
+                                        alt="Java" width="40" height="40" />&nbsp;
+                                    <img src="images/devicon-master/icons/arduino/arduino-original-wordmark.svg"
+                                        title="Arduino" alt="Arduino" width="40" height="40" />&nbsp;
+                                    <img src="images/devicon-master/icons/mysql/mysql-original-wordmark.svg"
+                                        title="MySQL" alt="MySQL" width="40" height="40" />&nbsp;
+                                    <img src="images/devicon-master/icons/jupyter/jupyter-original-wordmark.svg"
+                                        title="jupyter" alt="jupyter" width="40" height="40" />&nbsp;
+                                    <img src="images/devicon-master/icons/python/python-original-wordmark.svg"
+                                        title="python" alt="python" width="40" height="40" />&nbsp;
+                                </div>
+                            </li>
+                            <li><span>🤖 IDE</span><br>
+                                <div>
+                                    <img src="images/Apache_NetBeans_Logo.svg" title="NetBeans" alt="NetBeans"
+                                        width="40" height="40" />&nbsp;
+                                    <img src="https://i0.wp.com/ubiq.co/database-blog/wp-content/uploads/2020/10/mysql-workbench-alternatives.png?resize=730%2C410&ssl=1"
+                                        title="MYSQLWorkbench" alt="MYSQLWorkbench" width="80" height="40" />&nbsp;
+                                    <img src="images/Google_Colaboratory_SVG_Logo.svg" title="Google Colaboratory"
+                                        alt="Google Colaboratory" width="80" height="40" />&nbsp;
+                                    <img src="images/Visual_Studio_2012_logo_and_wordmark.svg" title="Visual Studio"
+                                        alt="Visual Studio" width="80" height="40" />&nbsp;
+                                    <img src="images/Eclipse-Luna-Logo.svg" title="Eclipse" alt="Eclipse" width="80"
+                                        height="40" />&nbsp;
+
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Apr 2022 - Oct 2022</span><br>UI/UX Designer at Tech For Good</li>
+                            <li><span>Jan 2017 - June 2017</span><br>Lead Programmer as reasearch assistant intern.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Apr 2015 - Apr 2018</span><br>Diploma in Computer Engineering at Temasek
+                                Polytechnic</li>
+                            <li><span>Sept 2021 - Present</span><br>Bachelor of Computer Engineer at Singapore Institute
+                                of Technology.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="work">
-                <img src="images/Dr Gravity.jpg">
-                <div class="layer">
-                    <h3>Dr Gravity</h3>
-                    <p>A game developed using C for a school project.</p><br>
-                    <p>Click the icon below for more</p>
-                    <a href="drgravity.html"><img src="images/icons/link.png"/>&nbsp;</a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="images/data.png">
-                <div class="layer">
-                    <h3>Network Generator</h3>
-                    <p>Data analysis framework to help analyze
-                        real world data-sets towards investigating a set of research questions
-                        with the use of Java, SQL and OOP Techniques.</p><br>
+        </div>
+    </div>
+
+    <!-- ----------portfolio------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Featured Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/t4g0.jpg">
+                    <div class="layer">
+                        <h3>Dynamic bowling ramp (Tech4Good)</h3>
+                        <p>Rampability, a dynamic bowling ramp that is aims to improve the bowling experience for people
+                            with Cerebral Palsy</p><br>
                         <p>Click the icon below for more</p>
-                    <a href="networkgenerator.html"><img src="images/icons/link.png"/>&nbsp;</a>
+                        <a href="tech4good.html"><img src="images/Icons/link.PNG" />&nbsp;</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Dr Gravity.jpg">
+                    <div class="layer">
+                        <h3>Dr Gravity</h3>
+                        <p>A game developed using C for a school project.</p><br>
+                        <p>Click the icon below for more</p>
+                        <a href="drgravity.html"><img src="images/Icons/link.PNG" />&nbsp;</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/data.png">
+                    <div class="layer">
+                        <h3>Network Generator</h3>
+                        <p>Data analysis framework to help analyze
+                            real world data-sets towards investigating a set of research questions
+                            with the use of Java, SQL and OOP Techniques.</p><br>
+                        <p>Click the icon below for more</p>
+                        <a href="networkgenerator.html"><img src="images/Icons/link.PNG" />&nbsp;</a>
+                    </div>
+                </div>
+            </div>
+            <!--<a href="#" class="btn">See more</a>-->
+        </div>
+    </div>
+    <!-- ---------services---------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Logistic Roles</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/wau2.jpg">
+                    <div class="layer">
+                        <i class="fas fa-crop-alt"></i>
+                        <h2>WAU!Malay Cultural Society EXCO</h2>
+                        <p>Singapore Institute of Technology, WAU! Malay Cultural Society.</p><br>
+                        <p>Dec 2022 - Present</p>
+                        <a href="wau.html"><img src="images/Icons/link.PNG" />&nbsp;</a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/fye.jpg">
+                    <div class="layer">
+                        <i class="fas fa-code"></i>
+                        <h2>SIT FYE Subcomm</h2>
+                        <p>Singapore Institute of Technology First Year Experience. </p><br>
+                        <p>Apr 2022 – Oct 2022</p>
+                        <a href="fye.html"><img src="images/Icons/link.PNG" />&nbsp;</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/sitta.jpg">
+                    <div class="layer">
+                        <i class="fab fa-app-store"></i>
+                        <h2>SITTA EXCO</h2>
+                        <p>SITTA EXCO</p><br>
+                        <p>Mar 2022 - Present</p>
+                        <a href="sitta.html"><img src="images/Icons/link.PNG" />&nbsp;</a>
+                    </div>
+                </div>
+            </div>
+            <!--<a href="#" class="btn">See more</a>-->
+        </div>
+    </div>
+
+    <!-- ----------contact------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>haziqshahwira@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Haziqshah_Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
                 </div>
             </div>
         </div>
-        <!--<a href="#" class="btn">See more</a>-->
-    </div>
-</div>
-<!-- ---------services---------------- -->
-<div id="services">
-    <div class="container">
-        <h1 class="sub-title">Logistic Roles</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="images/wau2.jpg">
-                <div class="layer">
-                    <i class="fas fa-crop-alt"></i>
-                <h2>WAU!Malay Cultural Society EXCO</h2>
-                <p>Singapore Institute of Technology, WAU! Malay Cultural Society.</p><br><p>Dec 2022 - Present</p>
-                <a href="wau.html"><img src="images/icons/link.png"/>&nbsp;</a>
-                
-                </div>
-            </div>
-            <div class="work">
-                <img src="images/fye.jpg">
-                <div class="layer">
-                    <i class="fas fa-code"></i>
-                    <h2>SIT FYE Subcomm</h2>
-                    <p>Singapore Institute of Technology First Year Experience. </p><br><p>Apr 2022 – Oct 2022</p>
-                    <a href="fye.html"><img src="images/icons/link.png"/>&nbsp;</a>
-            </div>
-            </div>
-            <div class="work">
-                <img src="images/sitta.jpg">
-                <div class="layer">
-                    <i class="fab fa-app-store"></i>
-                <h2>SITTA EXCO</h2>
-                <p>SITTA EXCO</p><br><p>Mar 2022 - Present</p>
-                <a href="sitta.html"><img src="images/icons/link.png"/>&nbsp;</a>
-            </div>
-            </div>
-        </div>
-        <!--<a href="#" class="btn">See more</a>-->
-    </div>
-</div>
-
-<!-- ----------contact------------- -->
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fas fa-paper-plane"></i>haziqshahwira@gmail.com</p>
-                <div class="social-icons">
-                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
-                    <a href=""><i class="fab fa-twitter-square"></i></a>
-                    <a href=""><i class="fab fa-instagram"></i></a>
-                    <a href=""><i class="fab fa-linkedin"></i></a>
-                </div>
-                <a href="images/Haziqshah_Resume.pdf" download class="btn btn2">Download CV</a>
-            </div>
-            <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
-                </form>
-                <span id="msg"></span>
-            </div>
+        <div class="copyright">
+            <p>Copyright © Haziqshah </p>
         </div>
     </div>
-    <div class="copyright">
-        <p>Copyright © Haziqshah </p>
-    </div>
-</div>
 
 
 
-<script>
+    <script>
 
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
 
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
         }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
+
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
         }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-    }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
 
-</script>
+    </script>
+    <script>
+        const scriptURL = " https://script.google.com/macros/s/AKfycbxHzoDS6vDDCdL_6UVx9GEm-3tlVrAtY9u9fz3Tnj-HGMBZki3i1nXGiWgOBCyYNSza/exec " // add your own app script link here
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
 
-<script>
-
-    var sidemeu = document.getElementById("sidemenu");
-
-    function openmenu(){
-        sidemeu.style.right = "0";
-    }
-    function closemenu(){
-        sidemeu.style.right = "-200px";
-    }
-
-</script>
-<script>
-    const scriptURL = " https://script.google.com/macros/s/AKfycbxHzoDS6vDDCdL_6UVx9GEm-3tlVrAtY9u9fz3Tnj-HGMBZki3i1nXGiWgOBCyYNSza/exec " // add your own app script link here
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg")
-  
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML = "Message sent successfully"
-            setTimeout(function(){
-                msg.innerHTML = ""
-            },5000)
-            form.reset()
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
         })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
+    </script>
 </body>
+
 </html>
